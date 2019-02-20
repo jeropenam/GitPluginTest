@@ -29,4 +29,9 @@ public class Employee {
 		this.middleName = middleName;
 	}
 
+	public static void main(String[] args) {
+		System.out.println("This is a test for Git functionality");
+
+	}
+
 }
