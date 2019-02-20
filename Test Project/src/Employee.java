@@ -3,6 +3,7 @@ public class Employee {
 
 	private String firstname;
 	private String lastName;
+	private String middleName;
 
 	public String getFirstname() {
 		return firstname;
@@ -18,6 +19,14 @@ public class Employee {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getMiddleName() {
+		return middleName;
+	}
+
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
 	}
 
 }
